@@ -1,0 +1,88 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#conversation-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: scroll;
+  justify-content: flex-end;
+  width: 750px;
+  height: 400px;
+  max-height: 400px;
+  background-color: #111;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+#input-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#input-text {
+  width: 500px;
+  height: 1em;
+  border-radius: 7px;
+  padding: 5px;
+  margin: 15px;
+  background-color: #222;
+}
+#input-text:focus {
+  outline: none;
+  border-color: #646cffaa;
+}
+
+#messages {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#input-button {
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
+}
+
+#available-users {
+  margin-top: 15px;
+}
+
+.id-label {
+  color: #646cffaa;
+}
+
+.selected {
+  border: 2px solid #646cffaa;
+  margin: 5px;
+}
+
+.unselected {
+  margin: 5px;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.sender {
+  color: #646cffaa;
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.msg {
+  color: #fff
+}
